@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <title>Real-time LinkedIn Job Data</title>
+</head>
+<body>
+    <img src="ratracker.png" alt="Logo" class="logo">
+    <h1>Real-time LinkedIn Job Data</h1>
+    <form id="filter-form">
+        <label for="Location">Country:</label>
+        <input type="text" id="country" name="Location">
+        <label for="job-field">Job Field:</label>
+        <input type="text" id="job-field" name="jobField">
+        <label for="yoe">Years of Experience:</label>
+        <input type="number" id="yoe" name="yoe">
+        <button type="submit">Filter</button>
+        <button type="total">Total</button>
+    </form>
+    <div id="job-count">Loading...</div>
+</body>
+</html>

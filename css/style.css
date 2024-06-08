@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(70, 70, 241);
+    color: white;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: -90px;
+    margin-left: 20px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: white;
+}
+#job-count {
+    text-align:center;
+    padding-top: 60px;
+}
+form{
+  padding-top: 30px;  
+  text-align: center;
+}
+.logo{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+#country{
+    border-radius: 30px;
+}
+#job-field{
+    border-radius: 30px;
+}
+#yoe{
+    border-radius: 30px;
+}
